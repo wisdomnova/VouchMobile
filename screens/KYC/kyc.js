@@ -51,14 +51,14 @@ const KYCVerificationScreen = () => {
       </View>
 
       {/* Bottom Navigation (Mock) */}
-      <View style={styles.bottomNav}>
+      {/* <View style={styles.bottomNav}>
         <Ionicons name="home-outline" size={28} color="black" />
         <Ionicons name="document-text-outline" size={28} color="black" />
         <Image
           source={{ uri: "https://randomuser.me/api/portraits/women/1.jpg" }}
           style={styles.navProfileImage}
         />
-      </View>
+      </View> */}
     </View>
   );
 };
